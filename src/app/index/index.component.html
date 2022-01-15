@@ -1,0 +1,7 @@
+<h1>這是首頁</h1>
+<button type="button" [routerLink]="['/test']">轉導到 test 頁面</button>
+
+<button type="button" (click)="onModalOpenClick(modal)">開啟 modal</button>
+<app-modal #modal>
+  <p>這是首頁的 modal </p>
+</app-modal>
